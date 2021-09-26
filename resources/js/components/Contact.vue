@@ -132,7 +132,7 @@ export default {
     computed: {
         errorMessages() {
             return function (field) {
-                if (field in this.errors) {
+                if (!!this.errors && field in this.errors) {
                     return this.errors[field].join(' ');
                 }
 

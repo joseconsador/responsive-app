@@ -15,6 +15,7 @@ docker run --rm \
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 sail up -d
 sail artisan migrate
+sail npm run prod
 sail artisan horizon
 ```
 
