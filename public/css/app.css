@@ -1,0 +1,46 @@
+.container {
+    background: #fff;
+}
+
+.container.wrapper {
+    padding: 20px;
+    width: auto;
+    background: #e3e4e6;
+}
+
+label {
+    font-weight: 600;
+}
+
+.form-col {
+    box-shadow: 7px 12px 8px -3px #d6d7d9
+}
+
+.main > .row > div {
+    padding: 20px;
+}
+
+.details-col {
+    color: #fff;
+    background: #3f3ec2;
+}
+
+.btn-primary {
+    background: #3f3ec2;
+}
+
+.contact-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-link a ion-icon {
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.social-links a {
+    margin-right: 20px;
+    font-size: 30px;
+}
